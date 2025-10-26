@@ -28,9 +28,17 @@
   }
 
   header p {
-    margin: 5px 0 0;
+    margin: 5px 0 20px;
     font-size: 1rem;
     font-weight: 400;
+  }
+
+  .hero-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
   }
 
   nav {
@@ -84,7 +92,7 @@
 
   .apply-button {
     display: block;
-    width: 220px;
+    width: 200px;
     margin: 40px auto 20px;
     padding: 15px 0;
     text-align: center;
@@ -124,8 +132,11 @@
 <body>
 
 <header>
-  <h1>ЯealTech Interns</h1>
-  <p>Reverse Experience Advanced Learning</p>
+  <h1>RealTech Interns</h1>
+
+  <img src="https://raw.githubusercontent.com/charan-144/realtech-interns/main/Realtech%20web%20image.png" 
+       alt="RealTech Internship" 
+       style="width:100%; max-width:1000px; display:block; margin:20px auto; border-radius:15px; box-shadow:0 4px 12px rgba(0,0,0,0.3);" />
 </header>
 
 <nav>
@@ -137,137 +148,50 @@
   <a href="#apply">Apply Now</a>
 </nav>
 
-<!-- About Section -->
 <section id="about">
   <h2>About RealTech Interns</h2>
   <p>
-    Nowadays, students experience only the theoretical part of engineering without enough real-world exposure. 
+    Nowadays, students experience only theoretical learning without enough real-world exposure. 
     Through Reverse Experience Advanced Learning, we provide hands-on, practical guidance by Full Stack Leads and industry experts. 
-    Our goal is to make students understand both fundamentals (for 1st-year students) and advanced concepts (for 3rd & 4th-year students), preparing them to excel in the real tech world.
+    Our goal is to make students understand both fundamentals and advanced concepts, preparing them to excel in the real tech world.
   </p>
 </section>
 
-<!-- Program Section -->
 <section id="program">
-  <h2>Program Structure</h2>
-
-  <div class="program-box">
-    <h3>Duration: 2 Months</h3>
-    <strong>1st Month:</strong>
-    <ul>
-      <li>Learn to build websites and understand essential coding tools.</li>
-      <li>Full Stack development basics: HTML, CSS, JavaScript, backend concepts.</li>
-      <li>Git & GitHub for version control.</li>
-      <li>UI/UX design principles and website hosting (GitHub Pages / Netlify).</li>
-      <li>Short daily tasks to improve logical thinking and coding skills.</li>
-    </ul>
-    <strong>2nd Month:</strong>
-    <ul>
-      <li>Focus on AI-based projects and practical applications.</li>
-      <li>Daily assignments and weekly assessments.</li>
-      <li>Live classes from 6:30 PM to 7:30 PM; optional weekend on-campus practice.</li>
-    </ul>
-  </div>
-
   <h2>Programs</h2>
-  <!-- AI & Full Stack Programs -->
+
   <div class="program-box">
     <h3>🐍 1. Artificial Intelligence & Machine Learning</h3>
-    <strong>📘 Foundations</strong>
     <ul>
-      <li>Python programming (NumPy, Pandas, Matplotlib)</li>
-      <li>Statistics, Probability & Linear Algebra for ML</li>
-      <li>Data preprocessing & feature engineering</li>
-    </ul>
-    <strong>🤖 Core Machine Learning</strong>
-    <ul>
-      <li>Supervised Learning: Regression, Classification</li>
-      <li>Unsupervised Learning: Clustering, Dimensionality Reduction</li>
-      <li>Model Evaluation (Accuracy, Precision, Recall, F1-score)</li>
-    </ul>
-    <strong>🧩 Deep Learning & Neural Networks</strong>
-    <ul>
-      <li>TensorFlow / PyTorch frameworks</li>
-      <li>CNNs (Computer Vision)</li>
-      <li>RNNs, LSTMs (Time Series & NLP)</li>
-      <li>Transfer Learning</li>
-    </ul>
-    <strong>🧠 AI Concepts</strong>
-    <ul>
-      <li>Natural Language Processing (NLP)</li>
-      <li>Computer Vision basics</li>
-      <li>Generative AI (LLMs, ChatGPT APIs, Image models)</li>
-      <li>AI model deployment (Flask / FastAPI)</li>
-    </ul>
-    <strong>💼 Tools</strong>
-    <ul>
-      <li>Jupyter Notebook / Google Colab</li>
-      <li>Scikit-learn, Keras</li>
-      <li>Git & GitHub for version control</li>
+      <li><b>📘 Foundations:</b> Python, NumPy, Pandas, Matplotlib, Statistics, Probability, Linear Algebra</li>
+      <li><b>🤖 Core ML:</b> Regression, Classification, Clustering, Model Evaluation</li>
+      <li><b>🧩 Deep Learning:</b> TensorFlow, PyTorch, CNNs, RNNs, Transfer Learning</li>
+      <li><b>🧠 AI Concepts:</b> NLP, Computer Vision, Generative AI, Model Deployment</li>
+      <li><b>💼 Tools:</b> Jupyter, Colab, Scikit-learn, Git & GitHub</li>
     </ul>
   </div>
 
   <div class="program-box">
     <h3>🐍 2. Python Full Stack Development with AI</h3>
-    <strong>🎯 Front-End (User Interface)</strong>
     <ul>
-      <li>HTML, CSS, JavaScript (ES6+)</li>
-      <li>React.js or Angular (interactive UIs)</li>
-      <li>Bootstrap / Tailwind CSS for styling</li>
-      <li>REST API integration on UI</li>
-    </ul>
-    <strong>⚙️ Back-End (Server & Database)</strong>
-    <ul>
-      <li>Python (Core + OOPs)</li>
-      <li>Flask / Django Framework</li>
-      <li>RESTful API creation and authentication (JWT)</li>
-      <li>Database: MySQL / PostgreSQL / MongoDB</li>
-    </ul>
-    <strong>🧠 AI Integration</strong>
-    <ul>
-      <li>Using OpenAI API / LangChain for chatbots and automation</li>
-      <li>Machine Learning model integration using Flask APIs</li>
-      <li>AI-based recommendation or prediction systems</li>
-    </ul>
-    <strong>☁️ Deployment</strong>
-    <ul>
-      <li>Cloud Platforms: AWS / Azure / Render / Vercel</li>
-      <li>Docker basics for deployment</li>
-      <li>CI/CD pipeline basics</li>
+      <li><b>🎯 Front-End:</b> HTML, CSS, JS, React.js/Angular, REST API integration</li>
+      <li><b>⚙️ Back-End:</b> Flask/Django, MySQL/MongoDB, API Authentication</li>
+      <li><b>🧠 AI Integration:</b> OpenAI API, LangChain, ML Models</li>
+      <li><b>☁️ Deployment:</b> AWS, Azure, Render, Docker</li>
     </ul>
   </div>
 
   <div class="program-box">
     <h3>☕ 3. Java Full Stack Development with AI</h3>
-    <strong>🎯 Front-End</strong>
     <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>React.js or Angular</li>
-      <li>AJAX & Fetch API for backend communication</li>
-    </ul>
-    <strong>⚙️ Back-End</strong>
-    <ul>
-      <li>Core Java + Advanced Java</li>
-      <li>Spring Boot framework</li>
-      <li>REST API creation, authentication, and security</li>
-      <li>Database: MySQL / PostgreSQL / MongoDB</li>
-      <li>ORM (Hibernate / JPA)</li>
-    </ul>
-    <strong>🧠 AI Integration</strong>
-    <ul>
-      <li>Connecting AI APIs (OpenAI, Hugging Face) to Spring Boot apps</li>
-      <li>Implementing basic ML models via Python microservices</li>
-      <li>AI-driven dashboards or insights modules</li>
-    </ul>
-    <strong>☁️ Deployment</strong>
-    <ul>
-      <li>AWS / Google Cloud / Azure</li>
-      <li>Docker & Jenkins (for automation and deployment)</li>
+      <li><b>🎯 Front-End:</b> HTML, CSS, JS, React.js/Angular</li>
+      <li><b>⚙️ Back-End:</b> Java, Spring Boot, Hibernate/JPA</li>
+      <li><b>🧠 AI Integration:</b> OpenAI, Hugging Face, Python Microservices</li>
+      <li><b>☁️ Deployment:</b> AWS, Docker, Jenkins</li>
     </ul>
   </div>
 </section>
 
-<!-- Training Streams Section -->
 <section id="training">
   <h2>Student Training Streams</h2>
   <div class="program-box">
@@ -284,7 +208,6 @@
   </div>
 </section>
 
-<!-- Internship Section -->
 <section id="internship">
   <h2>Selection & Internship</h2>
   <ol>
@@ -306,35 +229,26 @@
   </div>
 </section>
 
-<!-- AI Program Section -->
 <section id="ai-program">
   <h2>Reverse Experienced AI Program</h2>
-  <p>This 90-day program is for graduates who want to become job-ready in AI and Full Stack roles, including Front-End and Back-End development.</p>
-
+  <p>This 90-day program is for graduates who want to become job-ready in AI and Full Stack roles.</p>
   <div class="program-box">
     <h3>Front-End Skills:</h3>
     <ul>
       <li>HTML, CSS, JavaScript, React.js</li>
       <li>Responsive UI design with Bootstrap / Tailwind CSS</li>
-      <li>AI integration, version control, basic UI/UX principles</li>
-      <li>Projects: Portfolio, To-Do App, Weather App, E-commerce Front Page, AI Chatbot</li>
+      <li>AI integration, version control, UI/UX</li>
     </ul>
   </div>
-
   <div class="program-box">
     <h3>Back-End Skills:</h3>
     <ul>
       <li>Node.js, Express.js, MongoDB / MySQL</li>
-      <li>RESTful APIs, Authentication (JWT, OAuth)</li>
-      <li>Cloud Deployment using AWS / Firebase</li>
-      <li>Projects: Login/Signup, To-Do App with DB, Blog API, Chatbot App, E-commerce Backend</li>
+      <li>RESTful APIs, Authentication, Cloud Deployment</li>
     </ul>
   </div>
-
-  <p>After the 90-day training, selected students join a 5-month internship with real startup projects and placement opportunities. Program fee: ₹25,000 – ₹30,000 depending on specialization.</p>
 </section>
 
-<!-- Apply Now Button -->
 <section id="apply">
   <a href="https://forms.gle/LzFVb1iACVoiPnGP7" target="_blank" class="apply-button">Apply Now</a>
 </section>
